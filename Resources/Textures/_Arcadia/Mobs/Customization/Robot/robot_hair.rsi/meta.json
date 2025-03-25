@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from https://github.com/ParadiseSS13/Paradise/blob/55b500c9348158d899ab252c456711a1869bc845/icons/mob/sprite_accessories/ipc/ipc_head_accessories.dmi and modified by Daemon",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "antennae",
+      "directions": 4
+    },
+    {
+      "name": "tvantennae",
+      "directions": 4
+    },
+    {
+      "name": "tesla",
+      "directions": 4,
+      "delays": [
+        [
+          4,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          4,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          4,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          4,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "light",
+      "directions": 4,
+      "delays": [
+        [
+          4,
+          0.5,
+          0.1,
+          0.5
+        ],
+        [
+          4,
+          0.5,
+          0.1,
+          0.5
+        ],
+        [
+          4,
+          0.5,
+          0.1,
+          0.5
+        ],
+        [
+          4,
+          0.5,
+          0.1,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "cyberhead",
+      "directions": 4
+    },
+    {
+      "name": "sidelights",
+      "directions": 4
+    },
+    {
+      "name": "antlers",
+      "directions": 4
+    },
+    {
+      "name": "droneeyes",
+      "directions": 4
+    },
+    {
+      "name": "crowned",
+      "directions": 4
+    }
+  ]
+}
