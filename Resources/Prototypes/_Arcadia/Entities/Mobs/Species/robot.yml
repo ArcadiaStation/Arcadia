@@ -1,0 +1,36 @@
+- type: entity
+  parent: BaseMobSpeciesMachine
+  id: BaseMobRobot
+  name: Urist McTvHead
+  abstract: true
+  components:
+  - type: Icon
+    sprite: _Arcadia/Mobs/Species/Robot/parts.rsi
+    state: full
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+      - id: SheetSteel1
+        amount: 10
+  - type: HumanoidAppearance
+    species: Robot
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
+
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobRobotDummy
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
